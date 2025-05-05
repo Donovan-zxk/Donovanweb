@@ -377,12 +377,12 @@ header {
 
 .info-img {
     position: absolute;
-    right: -55px;
-    top: -103px;
+    right: -50px;
+    top: 1px;
 }
 
 .info-img img {
-    width: 650px;
+    width: 400px;
 }
 
 .footer {
@@ -583,4 +583,5 @@ header {
     .links h4 {
         margin: 25px 0 10px 0;
     }
+    
 }
