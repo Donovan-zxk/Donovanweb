@@ -79,5 +79,5 @@ loadMoreBtn3.onclick = () => {
     currentItem3 += 4;
     if(currentItem3 >= boxes.length) {
         loadMoreBtn3.style.display = 'none'
-    }
+    }   
 }
