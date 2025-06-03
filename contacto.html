@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="body-dy">
+
+    <form action="https://formsubmit.co/dlandon215@gmail.com" method="POST">
+        <h2 class="tit">Contacto</h2>
+
+        <div class="input-group">
+
+            <label class="texto" for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre" required>
+
+            <label class="texto" for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+
+            <label class="texto" for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje" required></textarea>
+
+            <input class="btn" type="submit" value="Enviar">
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/sitio%20web/">
+            <input type="hidden" name="_captcha" value="false">
+        </div>
+    </form>
+
+</body>
+</html>
