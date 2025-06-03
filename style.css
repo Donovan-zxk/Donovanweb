@@ -883,7 +883,7 @@ input::placeholder, textarea::placeholder {
 
 @media(max-width:991px) {
 
-    body {
+    .body-dy {
         padding: 30px;
     }
 
